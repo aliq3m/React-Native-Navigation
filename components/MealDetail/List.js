@@ -2,7 +2,7 @@ import { Text, View, StyleSheet } from "react-native";
 function List({ data }) {
   return data.map((dataPoint, index) => (
     <View style={styles.listItem}>
-      <Text style={styles.itemText} key={index}>
+      <Text style={styles.itemText} key={dataPoint}>
         {dataPoint}
       </Text>
     </View>
